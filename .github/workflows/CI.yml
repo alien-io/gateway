@@ -9,9 +9,9 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./gateway
+    # defaults:
+    #   run:
+    #     working-directory: ./gateway
     steps:
       - uses: actions/checkout@v3
 
